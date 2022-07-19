@@ -1,72 +1,65 @@
-.procent-card{
+.color{
     background-color: rgba(36,38,107,1) !important;
-    border-radius: 20px;
-    margin-top: 190px;
+    margin-top: 180px;
+}
+.color-1{
+    background-color: #1d1e62;
     padding: 40px 40px;
+    margin-right: 120px;
+    border-radius: 20px;
+    margin-bottom: 180px;
 }
-
-.procent-title{
-    text-align: left;
-    color: #ffffff;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 24px;
-    line-height: 1.5em;
-    font-weight: 500;
-
+.color-2{
+    background-color: #1d1e62;
+    padding: 40px 40px;
+    margin-left: 70px;
+    border-radius: 20px;
+    margin-bottom: 180px;
 }
-.white-procent{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 18px;
-    line-height: 1.3em;
-    font-weight: 500;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 3px;
-    color: rgba(111,125,182,1);
+.blog-image{
+    width: 90%;
 }
-.pink-procent{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1em;
-    font-weight: 500;
-    color: rgba(248,107,195,1);
-}
-.progres-bar{
+.icon-img{
+    height: 66px;
+    width: 66px;
     border-radius: 50%;
-    border-color: #6c5c5c;
-    width: 270px;
-    height: 270px;
-    border: 60px solid;
-    position: relative;
 }
-.clip{
-    position: absolute;
-    width: 270px;
-    height: 270px;
-    border: 60px solid;
-    clip-path: inset(0 0 0 50%);
-    border-color: rgba(248,107,195,1);
-    border-radius: 50%;
-    right: -61px;
-    top: -60px;
-}
-.inner-progres-bar{
-    text-align: center;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 18px;
-    line-height: 1.3em;
-    font-weight: 500;
+.read-more-btn1{
+    background: none;
+    border: none;
     color: white;
 }
-@media screen and (max-width: 1199px) {
-    .clip{
-        right: -63px;
-        top: -59px;
+.read-more-btn1:hover{
+    background: none;
+    border: none;
+    color: rgba(254,126,206,1);
+}
+.read-more-btn1:focus{
+    outline: none;
+}
+#more {
+    display: none;
+}
+#more1{
+    display: none;
+}
+@media screen and (max-width: 1203px){
+    .color-1{
+        margin-right: 40px;
+    }
+    .color-2{
+        margin-left: 40px;
     }
 }
-@media screen and (max-width: 991px){
-   .progres-bar{
-       display: none;
-   }
+    @media screen and (max-width: 768px){
+        .color-1{
+            margin-right: 0px;
+        }
+        .color-2{
+            margin-left: 0px;
+        }
+        .m-card{
+            margin-left: 0px;
+            margin-right: 0pxs;
+        }
 }
