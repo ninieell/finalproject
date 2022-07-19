@@ -1,19 +1,17 @@
-@import url("first-section.css");
-@import url("animation.css");
-@import url("second-section.css");
-@import url("third-section.css");
+@import url("section-1.css");
+@import url("scroll-animation.css");
+@import url("section-2.css");
+@import url("section-3.css");
 @import url("section-4.css");
 @import url("section-5.css");
 @import url("section-6.css");
 @import url("section-7.css");
 @import url("section-8.css");
 @import url("swiper-bundle.min.css");
-@import url("section-9.css");
 @import url("swiper-bundle.min.css");
-@import url("section-10.css");
 @import url("footer.css");
 @import url("navigation.css");
-@import url("contact.css");
+@import url("burger-menu.css");
 
 
 body{
