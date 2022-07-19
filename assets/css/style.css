@@ -1,0 +1,86 @@
+@import url("first-section.css");
+@import url("animation.css");
+@import url("second-section.css");
+@import url("third-section.css");
+@import url("section-4.css");
+@import url("section-5.css");
+@import url("section-6.css");
+@import url("section-7.css");
+@import url("section-8.css");
+@import url("swiper-bundle.min.css");
+@import url("section-9.css");
+@import url("swiper-bundle.min.css");
+@import url("section-10.css");
+@import url("footer.css");
+@import url("navigation.css");
+@import url("contact.css");
+
+
+body{
+  background-color: #1d1e62;
+  overflow-x: hidden;
+}
+.pink-text{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.3em;
+  font-weight: 500;
+  padding-bottom: 15px;
+  color: rgba(254,126,206,1);
+  margin-top: 200px;
+}
+.nav-btn{
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    right: 20px;
+}
+.nav-ul{
+  list-style: none;
+}
+.nav-list{
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 7px;
+  position: relative;
+}
+.nav-list a{
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-list a span{
+  margin: -6px 0 0 -6px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  height: 8px;
+  width: 8px;
+  border: 0;
+  background: rgba(248,107,195,1);
+  left: 50%;
+  top: 50%;
+  opacity: 5;
+  transition: all 0.1s ease-in-out;
+}
+.nav-list a span:hover{
+  height: 12px;
+  width: 12px;
+  margin: -6px 0 0 -6px;
+  border-radius: 100%;
+  opacity: 1;
+} 
+@media screen and (max-width: 1400px) {
+  .nav-btn{
+    display: none;
+  }
+}
+  
